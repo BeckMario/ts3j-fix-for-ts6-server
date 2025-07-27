@@ -26,7 +26,7 @@ public class Ts5ServerLicenseUse extends LicenseUse {
 
     @Override
     public LicenseUseType getUseType() {
-        return LicenseUseType.SERVER;
+        return LicenseUseType.TS5SERVER;
     }
 
     @Override
@@ -56,7 +56,6 @@ public class Ts5ServerLicenseUse extends LicenseUse {
 
         return buffer;
     }
-
 
     public List<byte[]> getProperties() {
         return properties;
